@@ -1,0 +1,19 @@
+﻿  Reading Qt configuration (D:/qt/5.14.2/msvc2017_64/bin/qmake)
+  mysqlconnect.cpp
+  TeacherDetail.cpp
+  Temodify.cpp
+  TeModifyPassword.cpp
+  AlterCLass.cpp
+  login.cpp
+  loginFile.cpp
+  mainwidget.cpp
+  main.cpp
+  qrc_mainwidget.cpp
+  moc_mainwidget.cpp
+  moc_TeModifyPassword.cpp
+  moc_Temodify.cpp
+  moc_TeacherDetail.cpp
+  moc_AlterCLass.cpp
+  moc_loginFile.cpp
+  moc_login.cpp
+  mainwidget.vcxproj -> C:\Users\weidongting\Desktop\12-基于Qt和MySQL的学生信息管理系统-卫东廷-史晨睿-马恺昊-苏诗杰\课程设计项目文档\x64\Debug\mainwidget.exe

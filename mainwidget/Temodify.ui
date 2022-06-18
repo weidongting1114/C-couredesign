@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Temodify</class>
+ <widget class="QWidget" name="Temodify">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>278</width>
+    <height>353</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>278</width>
+    <height>353</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>278</width>
+    <height>353</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="mainwidget.qrc">
+    <normaloff>:/images/icon.png</normaloff>:/images/icon.png</iconset>
+  </property>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>301</y>
+     <width>203</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;</string>
+   </property>
+   <property name="text">
+    <string>注意：不要有重复的工号</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>278</width>
+     <height>353</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#frame
+{
+	border-image: url(:/images/bd1.png);
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QWidget" name="widget_8" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>261</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QWidget" name="widget_6" native="true">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QWidget" name="widget_2" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="styleSheet">
+              <string notr="true">color:white;</string>
+             </property>
+             <property name="text">
+              <string>姓名</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_name">
+             <property name="styleSheet">
+              <string notr="true">QLineEdit
+{
+background:transparent;border-width:1;border-style: outset; 
+border-color: white;
+color:white;
+}</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_4" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="styleSheet">
+              <string notr="true">color:white;</string>
+             </property>
+             <property name="text">
+              <string>性别</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_gender">
+             <property name="styleSheet">
+              <string notr="true">QLineEdit
+{
+background:transparent;border-width:1;border-style: outset; 
+border-color: white;
+color:white;
+}</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="styleSheet">
+              <string notr="true">color:white;</string>
+             </property>
+             <property name="text">
+              <string>工号</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_number">
+             <property name="styleSheet">
+              <string notr="true">QLineEdit
+{
+background:transparent;border-width:1;border-style: outset; 
+border-color: white;
+color:white;
+}</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_3" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="styleSheet">
+              <string notr="true">color:white;</string>
+             </property>
+             <property name="text">
+              <string>工作单位</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_grade">
+             <property name="styleSheet">
+              <string notr="true">QLineEdit
+{
+background:transparent;border-width:1;border-style: outset; 
+border-color: white;
+color:white;
+}</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_5" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <widget class="QLabel" name="label_5">
+             <property name="styleSheet">
+              <string notr="true">color:white;</string>
+             </property>
+             <property name="text">
+              <string>我的密码</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_password">
+             <property name="styleSheet">
+              <string notr="true">QLineEdit
+{
+background:transparent;border-width:1;border-style: outset; 
+border-color: white;
+color:white;
+}</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="BtnSave">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>270</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border-radius:10px;
+background-color:rgb(159, 159, 159);
+color:white;
+}
+
+QPushButton:hover
+{
+    /*背景颜色*/  
+color:black;
+background-color:rgb(255, 255, 255);
+}
+/*按钮按下态*/
+QPushButton:pressed
+{
+    /*背景颜色*/  
+    background-color:rgb(14 , 135 , 228);
+    /*左内边距为3像素，让按下时字向右移动3像素*/  
+    padding-left:3px;
+    /*上内边距为3像素，让按下时字向下移动3像素*/  
+    padding-top:3px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>保存</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BtnExit">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>270</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border-radius:10px;
+background-color:rgb(159, 159, 159);
+color:white;
+}
+
+QPushButton:hover
+{
+    /*背景颜色*/  
+color:black;
+background-color:rgb(255, 255, 255);
+}
+/*按钮按下态*/
+QPushButton:pressed
+{
+    /*背景颜色*/  
+    background-color:rgb(14 , 135 , 228);
+    /*左内边距为3像素，让按下时字向右移动3像素*/  
+    padding-left:3px;
+    /*上内边距为3像素，让按下时字向下移动3像素*/  
+    padding-top:3px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>退出</string>
+    </property>
+   </widget>
+  </widget>
+  <zorder>frame</zorder>
+  <zorder>label_6</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="mainwidget.qrc"/>
+ </resources>
+ <connections/>
+</ui>
